@@ -28,8 +28,8 @@ public class SelenoidProxyTest {
         Configuration.browser = RemoteDriverBrowser.class.getName();
         Configuration.timeout = 15000;
         Configuration.startMaximized = true;
-        Configuration.proxyEnabled = true;
-        Configuration.fileDownload = PROXY;
+//        Configuration.proxyEnabled = true;
+//        Configuration.fileDownload = PROXY;
     }
 
     @Test
